@@ -6,23 +6,23 @@ body {
 .one {
   background: pink;
   border: 3px solid blue;
-  display: block;
-  padding: 50px;
-  margin: 10px;
+  /* CHANGE ME */
+  padding: 0px;
+  margin: 0px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
-  display: block;
-  margin-bottom: 50px;
+  /* CHANGE ME */
+  margin-bottom: 0px;
 }
 
 .three {
   background: peachpuff;
   border: 3px solid brown;
   width: 200px;
-  display: inline-block;
-  padding: 50px;
-  margin-left: 280px;
+  /* CHANGE ME */
+  padding: 0px;
+  margin-left: 0px;
 }
