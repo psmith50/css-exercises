@@ -25,3 +25,13 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* my solution */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
