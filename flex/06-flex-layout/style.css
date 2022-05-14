@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 img {
@@ -26,12 +30,16 @@ input {
   margin-bottom: 16px;
 }
 
-/* my solution */
-
-ul {
-  list-style-type: none;
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
-li {
-  display: inline;
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
